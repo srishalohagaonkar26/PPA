@@ -1,0 +1,24 @@
+class Demo
+{
+    public int i;
+    public final int j;
+
+    public Demo(int a, int b)
+    {
+        this.i = a;
+        this.j = b;
+    }
+
+
+
+}
+class Final_DataX
+{
+    public static void main(String[] A)
+    {
+        Demo dobj =  new Demo(10,20);
+
+        dobj.i = 11;
+        dobj.j++;
+    }
+}    
